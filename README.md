@@ -1,5 +1,11 @@
 # TASK_MANAGER
 
+Create a Property File:
+Ensure you have a property file (e.g., config.properties) with the database path defined. For example:
+properties
+Copy code
+db_path=tasks.db
+
 ## Clean Build Folder
 
 This step ensures that any previous build artifacts are removed before starting a new build. Running `make clean` will delete the existing build files and directories, which helps prevent conflicts and ensures a clean slate for the new build.
